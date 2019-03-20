@@ -28,14 +28,6 @@ socket.on('disconnect', function () {
     console.log('Perdimos conexión con el servidor');
 });
 
-// Enviar información
-// socket.emit('crearMensaje', {
-//     nombre: 'Fernando',
-//     mensaje: 'Hola Mundo'
-// }, function(resp) {
-//     console.log('respuesta server: ', resp);
-// });
-
 // Escuchar información
 socket.on('crearMensaje', function (mensaje) {
     renderizarMensajes(mensaje);
