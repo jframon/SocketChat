@@ -1,6 +1,6 @@
 # Notas:
 
-Este es un pequeño servidor de express listo para ejecutarse y servir la carpeta public en la web.
+Este es un pequeña aplicacion de chat con sockets listo para ejecutarse y servir la carpeta public en la web.
 
 Recuerden que deben de reconstruir los módulos de node con el comando
 
